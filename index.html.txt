@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marketing Landing Page | High-Converting Template</title>
+
+  <!-- SEO -->
+  <meta name="description" content="A fast, responsive, SEO-optimized marketing landing page built with HTML, CSS, and JS. Perfect for Google Ads & Meta Ads traffic." />
+  <link rel="canonical" href="https://yourdomain.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="High-Converting Landing Page" />
+  <meta property="og:description" content="SEO-optimized, mobile-friendly landing page for digital marketing campaigns." />
+  <meta property="og:image" content="assets/screenshot.png" />
+  <meta property="og:type" content="website" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+
+<body>
+
+  <!-- Skip link -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Grow Your Business with a High-Converting Landing Page</h1>
+      <p>Optimized for Google Ads, Meta Ads, and high-performance marketing campaigns.</p>
+      <a href="#contact" class="cta-btn">Get Started</a>
+    </div>
+    <img src="assets/hero.jpg" alt="Marketing" class="hero-img" />
+  </header>
+
+  <!-- Features Section -->
+  <section class="features" id="main">
+    <h2>Why Choose This Landing Page?</h2>
+    <div class="feature-grid">
+      <div class="feature-card">
+        <h3>SEO Optimized</h3>
+        <p>Rank higher and increase visibility instantly.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Mobile First</h3>
+        <p>Designed to perform flawlessly on all devices.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Lightning Fast</h3>
+        <p>Minimal scripts, lazy loading, optimized assets.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials">
+    <h2>What Clients Say</h2>
+    <p>“This landing page boosted our conversions by 42%!” – Sarah, Digital Marketer</p>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Email Address" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p class="form-status"></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Landing Page Template. All rights reserved.</p>
+  </footer>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>
