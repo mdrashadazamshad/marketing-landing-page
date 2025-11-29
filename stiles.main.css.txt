@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #222;
+  background: #fff;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  padding: 60px;
+  background: #f7f7f7;
+}
+
+.hero-content {
+  flex: 1;
+}
+
+.hero-img {
+  width: 45%;
+  border-radius: 12px;
+}
+
+.cta-btn {
+  background: #007bff;
+  color: #fff;
+  padding: 14px 22px;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.features {
+  padding: 50px;
+  text-align: center;
+}
+
+.feature-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.feature-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.testimonials {
+  padding: 50px;
+  background: #eef5ff;
+  text-align: center;
+}
+
+.contact {
+  padding: 50px;
+  text-align: center;
+}
+
+.contact form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact input,
+.contact textarea {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #f2f2f2;
+}
