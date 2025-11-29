@@ -1,0 +1,15 @@
+landing-page/
+├── index.html
+├── styles/
+│   ├── main.css
+│   └── components.css
+├── scripts/
+│   └── main.js
+├── assets/
+│   ├── hero.jpg
+│   └── screenshot.png
+├── sitemap.xml
+├── robots.txt
+├── README.md
+├── .gitignore
+└── LICENSE
